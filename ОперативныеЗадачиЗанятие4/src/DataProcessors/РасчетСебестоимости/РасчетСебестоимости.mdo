@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a95f7a9a-8606-4794-af10-00a5d107bcb6">
+  <producedTypes>
+    <objectType typeId="28497a74-24d9-460a-8da3-a823de293b87" valueTypeId="855f219f-b26a-4aab-b125-86b2001a41d3"/>
+    <managerType typeId="54472060-4f69-4262-ba63-c4a8ba0dff5c" valueTypeId="baf7f611-dc3b-4013-8bbe-831e4e685748"/>
+  </producedTypes>
+  <name>РасчетСебестоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет себестоимости</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РасчетСебестоимости.Form.Форма</defaultForm>
+  <forms uuid="9730ff42-9576-43d9-b1a5-1205b9a298d2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

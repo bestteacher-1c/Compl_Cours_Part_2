@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2ca4e96-c519-4395-b068-936be50dd297">
+  <producedTypes>
+    <refType typeId="97ee6207-8d11-4b36-bcf1-5da8ec29c345" valueTypeId="67507c25-e59f-4680-8d64-766428038198"/>
+    <listType typeId="d073d5f9-1a71-4320-8c9b-fe62b2e9d59a" valueTypeId="e0b6984a-fabd-444c-8182-a60a2421829c"/>
+    <managerType typeId="ded33e79-d4fc-4e6c-90f3-dbce6ff7877f" valueTypeId="a86308e0-e107-4cfd-85ab-1ddb2e3f557c"/>
+  </producedTypes>
+  <name>ВариантыВыводаОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты вывода отчетов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c82546b2-29ff-4dad-8e53-29ef2bd12d68">
+    <name>ПоКомплектующим</name>
+    <synonym>
+      <key>ru</key>
+      <value>По комплектующим</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b7cdcec0-c0f7-452b-9f53-f16dfeac4fc9">
+    <name>ПоЗаказам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По заказам</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

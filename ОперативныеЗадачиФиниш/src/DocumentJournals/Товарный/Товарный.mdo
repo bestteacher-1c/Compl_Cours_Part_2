@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d579916-b936-4cc4-9d8b-f7bc419acd99">
+  <producedTypes>
+    <selectionType typeId="e11ed64d-f2a3-4831-91ce-980950e30e6a" valueTypeId="ad41db31-f01a-4603-9ae8-8674acb2d7d5"/>
+    <listType typeId="e0b11124-2ed6-4e66-9ba8-aeadcab7536f" valueTypeId="0e8966a1-c52e-4d41-80db-5aa24f78ec80"/>
+    <managerType typeId="9cd5729f-79f4-477c-b051-e418f0991646" valueTypeId="1e86e038-9488-4aa0-8866-174fda56c842"/>
+  </producedTypes>
+  <name>Товарный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товарный</value>
+  </synonym>
+  <defaultForm>DocumentJournal.Товарный.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПоступлениеТоваровИУслуг</registeredDocuments>
+  <registeredDocuments>Document.РеализацияТоваровИУслуг</registeredDocuments>
+  <registeredDocuments>Document.ЗаказПоставщику</registeredDocuments>
+  <listPresentation>
+    <key>ru</key>
+    <value>Журнал товарных документов</value>
+  </listPresentation>
+  <columns uuid="d740f1ef-a2fb-4981-b7ae-efa9ed1468b8">
+    <name>Контрагенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагенты</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.Контрагент</references>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.Контрагент</references>
+    <references>Document.ЗаказПоставщику.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="cf43c5b7-a585-4ef1-931b-854ebc22fbab">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.Склад</references>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.Склад</references>
+    <references>Document.ЗаказПоставщику.Attribute.Склад</references>
+  </columns>
+  <forms uuid="c268b688-251d-4f71-b996-24f0482e2f3f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

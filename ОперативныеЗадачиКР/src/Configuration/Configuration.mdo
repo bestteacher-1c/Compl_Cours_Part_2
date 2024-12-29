@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e93b790-10ea-40e9-a214-59eb0db543d2">
+  <name>ОперативныеЗадачи_КР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оперативные задачи - К/Р</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e26530b9-2194-4d0b-8c09-138692fb2ec4"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e597a06c-69e5-49fe-9f52-1259ada4e400"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="bf8d4c25-1a64-4b2e-935e-351541b53629"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="7507f713-2fcc-46dd-b627-6b3cd0ada7e3"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="61d29494-29bb-4412-9a61-77e7ec3689db"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="81cff514-3377-4e67-b3e3-43fb641ce132"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="f6d41538-23bf-49be-9a77-034a89af5e7d"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <mainSectionPicture/>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="07a2eadd-4fb8-4404-a24d-7784d88b6e68">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Сборка</subsystems>
+  <commonPictures>CommonPicture.Сборка</commonPictures>
+  <filterCriteria>FilterCriterion.ПодчиненныеДокументы</filterCriteria>
+  <catalogs>Catalog.Компьютеры</catalogs>
+  <catalogs>Catalog.СвойстваКомпьютеров</catalogs>
+  <catalogs>Catalog.Комплектующие</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <documents>Document.ПоступлениеКомплектующих</documents>
+  <documents>Document.ЗаказПокупателя</documents>
+  <documents>Document.НачалоСборки</documents>
+  <documents>Document.ОкончаниеСборки</documents>
+  <documents>Document.ПродажаКомпьютера</documents>
+  <enums>Enum.ВариантыВыводаОтчетов</enums>
+  <reports>Report.КомплектующиеНаСкладе</reports>
+  <reports>Report.КомплектующиеВСборке</reports>
+  <reports>Report.КомпьютерыНаСкладе</reports>
+  <reports>Report.ЗанятостьСборщиков</reports>
+  <reports>Report.КомплектующиеНаСкладе_БезСКД</reports>
+  <reports>Report.КомплектующиеВСборке_БезСКД</reports>
+  <reports>Report.ЗанятостьСборщиков_СКД</reports>
+  <informationRegisters>InformationRegister.СпецификацииКомпьютеров</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиКомплектующих</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.КомплектющиеВСборке</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ГотовыеКомпьютеры</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.НачисленияСотрудникам</accumulationRegisters>
+</mdclass:Configuration>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a11955eb-9761-41ff-b5cf-077a80686d88">
+  <producedTypes>
+    <objectType typeId="0ef8c2ea-da0f-4cca-bec8-d58a1610a7ef" valueTypeId="798cfe41-5303-4787-8b7a-678b4395ae1f"/>
+    <refType typeId="096ef8a6-0a17-4226-af3c-cb0e34d11817" valueTypeId="3b465492-d981-493c-b770-cf2a8c542976"/>
+    <selectionType typeId="57b70575-cf08-4ad7-8aa8-0cdf2eea50ed" valueTypeId="074ef12e-ce71-4629-a001-6f918771c6d1"/>
+    <listType typeId="973e6b39-70f7-498a-a942-e6ac0c562cf4" valueTypeId="62704995-9b60-49de-bd19-15dc00a1035b"/>
+    <managerType typeId="b1653556-f444-4872-b511-dafcd6c43516" valueTypeId="2205aa81-30f6-4f69-bb56-0af72d4bb58b"/>
+  </producedTypes>
+  <name>СвойстваКомпьютеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства компьютеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СвойстваКомпьютеров.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СвойстваКомпьютеров.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

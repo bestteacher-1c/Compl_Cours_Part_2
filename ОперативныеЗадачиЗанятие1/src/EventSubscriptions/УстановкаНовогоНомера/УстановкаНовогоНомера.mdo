@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f49cda1-7ddf-42ca-b380-97b9f1eaceb6">
+  <name>УстановкаНовогоНомера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка нового номера</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ОказаниеУслугСервисМенеджером</types>
+    <types>DocumentObject.ПоступлениеТоваровИУслуг</types>
+    <types>DocumentObject.ПланированиеОказанияУслуг</types>
+    <types>DocumentObject.РеализацияТоваровИУслуг</types>
+    <types>DocumentObject.ВыплатаДенег</types>
+    <types>DocumentObject.ПолучениеДенег</types>
+  </source>
+  <event>OnSetNewNumber</event>
+  <handler>CommonModule.Серверный.УстановкаНовогоНомераПриУстановкеНовогоНомера</handler>
+</mdclass:EventSubscription>

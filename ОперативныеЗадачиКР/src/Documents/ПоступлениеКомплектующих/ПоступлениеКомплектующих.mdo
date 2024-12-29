@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2643488-2233-4d61-a93e-649fb0a839ab">
+  <producedTypes>
+    <objectType typeId="90aa8752-9302-472c-bb8d-456be893b000" valueTypeId="41d1c984-09b4-4add-87af-f96d0c769f0a"/>
+    <refType typeId="23b88bc7-3e45-4ed6-b44c-bbbb0c2ed522" valueTypeId="407e9bf2-73d1-4cad-89c9-1b8856103f57"/>
+    <selectionType typeId="4908c9c5-0401-465e-a401-e3052a7a0c36" valueTypeId="5cde2bb4-ba38-46b6-8b04-70b34ba1e98f"/>
+    <listType typeId="37ee6892-2312-47b3-9cf4-da0b65079208" valueTypeId="f15dd29b-e60f-43c6-b0c0-cc14bfefabd7"/>
+    <managerType typeId="b4db7547-e45a-47ee-92bb-160c3462c528" valueTypeId="543bba05-44f0-4e3d-83e0-393f9f04ed7d"/>
+  </producedTypes>
+  <name>ПоступлениеКомплектующих</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление комплектующих</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПоступлениеКомплектующих.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПоступлениеКомплектующих.Form.ФормаДокумента</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccumulationRegister.ОстаткиКомплектующих</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="15d0325b-612f-425b-b14c-41ab6315f9fd">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="7f402832-0fe2-4e34-82c0-ad79fd9f0b5f">
+    <producedTypes>
+      <objectType typeId="d49dcf31-ff77-450a-8418-768806c9f615" valueTypeId="3991fddb-126f-4f1c-90b8-42ee1003021d"/>
+      <rowType typeId="7e778d71-098a-4c6e-9a2b-65c950229e2d" valueTypeId="48075c0d-69ff-4988-a6f3-d0ecc21cb929"/>
+    </producedTypes>
+    <name>Комплектующие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектующие</value>
+    </synonym>
+    <attributes uuid="c2745242-a120-449b-b74b-7cd482d0beaf">
+      <name>Комплектующая</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комплектующая</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Комплектующие</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0e95d347-ee1d-425d-bb53-703974f396de">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a621aeb6-2961-4ee1-a82d-d043dc0e8ce4">
+  <producedTypes>
+    <objectType typeId="1f95a964-415a-47e6-a192-733469b3cc1d" valueTypeId="f7a11659-6cfc-4936-baee-2548cdd31bff"/>
+    <managerType typeId="154ea5c8-d376-42f7-958e-76a511aa47e4" valueTypeId="80acfe5e-eb57-4733-b969-5813f4eaea0d"/>
+  </producedTypes>
+  <name>ОстаткиТоваров_ТабДок_НаОсновеМакета</name>
+  <synonym>
+    <key>ru</key>
+    <value>В табличный документ (на основе макета)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОстаткиТоваров_ТабДок_НаОсновеМакета.Form.ФормаОтчета</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Остатки товаров (вывод в табличный документ, на основе макета)</value>
+  </extendedPresentation>
+  <forms uuid="cfdb54d9-dced-457d-9d13-e86a89bd9747">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="09473497-6c9e-4210-82cd-a95498b357d0">
+    <name>Макет</name>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f82b9b1-1ea2-47b7-aa3a-349569a6d540">
+  <producedTypes>
+    <selectionType typeId="094cce77-e314-4d5d-9c12-a9723a24c96a" valueTypeId="550aa361-dd48-46e0-984b-cac06279f034"/>
+    <listType typeId="c7ea58db-7049-4db6-8516-212b3e465104" valueTypeId="43c50b9e-ab06-4e8b-8e51-afdd474a0046"/>
+    <managerType typeId="6b08f0d9-3c03-44eb-9935-3c25f1cb0e3d" valueTypeId="bd4e0577-a10f-44f5-a146-31e7c5c1e105"/>
+    <recordSetType typeId="561e79fe-6168-4f2e-b848-02ad21cee768" valueTypeId="b694cf66-f207-4d55-88dd-d596a7b9e5c1"/>
+    <recordKeyType typeId="27a04363-e854-4318-b354-b4829faa78e6" valueTypeId="c2918491-0105-42cd-9082-bc0bc8f7c044"/>
+    <recordType typeId="5c3cabef-623b-43dd-91f6-1b4fe6d8451b" valueTypeId="0e64a2b0-f314-4b8c-b9ff-59319abc6726"/>
+    <recordManagerType typeId="b8b9764c-bf35-4dcb-b397-da0f6c21a73f" valueTypeId="c686e21b-3254-4ac9-a522-5089b817c652"/>
+  </producedTypes>
+  <name>СпецификацииКомпьютеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Спецификации компьютеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>InformationRegister.СпецификацииКомпьютеров.Form.ФормаСписка</defaultListForm>
+  <resources uuid="48434e54-10fe-4da0-98c4-a6f60bfb18fa">
+    <name>Комплектующая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектующая</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Комплектующие</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5f59e875-daa2-47ba-a740-201b187183ae">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8bc7c143-c43d-4eed-a3e0-3d22118082ad">
+    <name>Компьютер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компьютер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Компьютеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="705d0939-9d01-42d8-a4c1-ab2792a7a041">
+    <name>СвойствоКомпьютера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойство компьютера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СвойстваКомпьютеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0efeabbc-874a-4cf1-a02c-de957d74f4e6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

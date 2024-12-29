@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39e3c0a7-c088-424e-95ea-a995417aecba">
+  <producedTypes>
+    <objectType typeId="c814aca8-9e9c-4cf0-be12-8918bd4d6b8b" valueTypeId="0b19bb5d-d064-4018-a25e-475632d1fb32"/>
+    <refType typeId="035d992e-f6d5-4f95-98cc-c91a40d116e4" valueTypeId="2710865e-14b7-4e30-9427-25c705b9c1ef"/>
+    <selectionType typeId="6f53bfad-2380-457a-8124-1460adf5dbee" valueTypeId="28f19ea1-b3c6-4641-959d-06b9ce25767f"/>
+    <listType typeId="4ddff278-3c45-414f-887d-52c75a698c44" valueTypeId="c34b48d1-d75e-4319-8927-e56a7e5e5e7f"/>
+    <managerType typeId="2435c593-5e49-4c27-8dac-ca0acbdc16da" valueTypeId="c5c70a03-dc54-41bb-a049-5afbad44d4de"/>
+  </producedTypes>
+  <name>Компьютеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компьютеры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Компьютеры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Компьютеры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f0b8d2c5-12cc-429e-952b-34a8a66071a1">
+      <name>ОсобаяКонфигурация</name>
+      <description>Особая конфигурация</description>
+      <code xsi:type="core:NumberValue">
+        <value>1</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ded4073a-9d0b-447c-aa8f-a9d1c89cf9cf">
+    <name>ПремияЗаСборку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премия за сборку</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d6b63ea4-ab19-4ae6-bc21-57061dfead51">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3a346c1c-d6cd-4a70-b3e1-9281099d6d9a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="14402512-c6f9-40f5-be4f-41dbb558c4a6">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

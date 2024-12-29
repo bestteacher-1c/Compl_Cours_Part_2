@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2d76621-808e-4746-b345-c1d2f55b9146">
+  <name>Сборка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сборка</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Сборка</picture>
+  </picture>
+  <content>FilterCriterion.ПодчиненныеДокументы</content>
+  <content>Report.КомплектующиеНаСкладе</content>
+  <content>Report.КомплектующиеВСборке</content>
+  <content>Report.ЗанятостьСборщиков</content>
+  <content>Report.КомпьютерыНаСкладе</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Документы</subsystems>
+  <subsystems>Регистры</subsystems>
+</mdclass:Subsystem>

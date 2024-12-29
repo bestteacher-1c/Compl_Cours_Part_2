@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>ActionsPanelReports</group>
+      <commands>Report.КомплектующиеНаСкладе.StandardCommand.Open</commands>
+      <commands>Report.КомплектующиеВСборке.StandardCommand.Open</commands>
+      <commands>Report.КомпьютерыНаСкладе.StandardCommand.Open</commands>
+      <commands>Report.ЗанятостьСборщиков.StandardCommand.Open</commands>
+    </orderFragments>
+  </commandsOrder>
+  <subsystemsOrder>
+    <subsystems>Subsystem.Сборка.Subsystem.Документы</subsystems>
+    <subsystems>Subsystem.Сборка.Subsystem.Справочники</subsystems>
+    <subsystems>Subsystem.Сборка.Subsystem.Регистры</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

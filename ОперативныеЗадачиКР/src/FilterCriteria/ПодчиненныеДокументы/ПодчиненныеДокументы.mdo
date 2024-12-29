@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91a7a678-fc52-44d0-b72a-0b7dd40dc3b7">
+  <producedTypes>
+    <listType typeId="ac13964b-3763-452f-a4f5-cde53d3592f2" valueTypeId="04539b3c-2415-4051-818e-9951704be9c1"/>
+    <managerType typeId="4c751a76-bcb5-4f21-b5ef-8bf82630b5b5" valueTypeId="47abe75b-f253-484a-91fd-826e38fc19d6"/>
+  </producedTypes>
+  <name>ПодчиненныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подчиненные документы</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ЗаказПокупателя</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.НачалоСборки.Attribute.ДокументОснование</content>
+  <content>Document.ОкончаниеСборки.Attribute.ДокументОснование</content>
+  <content>Document.ПродажаКомпьютера.Attribute.ДокументОснование</content>
+</mdclass:FilterCriterion>

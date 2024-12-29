@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca1fceb9-794b-476f-8860-9327bae65077">
+  <producedTypes>
+    <objectType typeId="7287abbf-74bf-4a45-ab30-f1a782b950f2" valueTypeId="aca775bd-8902-489c-8961-707f78697d01"/>
+    <managerType typeId="a53744bd-9a03-4585-b138-47bc32f1625f" valueTypeId="50e7bd0d-2470-429c-821d-8a73406efe25"/>
+  </producedTypes>
+  <name>ЗанятостьСборщиков_СКД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Занятость сборщиков СКД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ЗанятостьСборщиков_СКД.Form.ФормаОтчета</defaultForm>
+  <forms uuid="c3f39ea5-714f-404d-bdfa-fe6d19ed36be">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ee97cc3e-33f2-4e20-9de0-4559b1fac43a">
+    <name>Макет</name>
+  </templates>
+</mdclass:Report>

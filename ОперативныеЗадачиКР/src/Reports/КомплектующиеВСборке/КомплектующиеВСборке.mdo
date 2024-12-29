@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a7b4b3f-73f6-499a-8f49-2054dbc0a8ca">
+  <producedTypes>
+    <objectType typeId="afae0f5c-325e-4a08-9741-ea97dff44a72" valueTypeId="bb502e11-b690-4f2d-ba21-c0420679c912"/>
+    <managerType typeId="bc5a5a01-b100-40f1-bb7c-fff0177cfab8" valueTypeId="8af86dc6-cae5-47af-9061-0fe3adb7af9a"/>
+  </producedTypes>
+  <name>КомплектующиеВСборке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комплектующие в сборке</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КомплектующиеВСборке.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="808455ef-2aa7-4418-8196-6c1d567a3eb0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

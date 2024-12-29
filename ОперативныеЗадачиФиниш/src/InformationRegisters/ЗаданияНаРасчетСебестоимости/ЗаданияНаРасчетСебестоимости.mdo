@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a86a005-81d5-4ddc-a780-c10ba2003cd1">
+  <producedTypes>
+    <selectionType typeId="0bebde32-248f-4475-8fc7-f06369a6636d" valueTypeId="882fc369-7604-4802-b510-579210093bb6"/>
+    <listType typeId="2fdf95a5-e887-4d12-b072-74ba8f0372dc" valueTypeId="eb6b5e1e-25f3-4fd3-9a49-e84cdca72e00"/>
+    <managerType typeId="5b98fb69-a4ef-48e2-9dca-fdc62264e48e" valueTypeId="47428d00-ebe0-4813-a49e-b61dd09a1241"/>
+    <recordSetType typeId="af97615c-1c4f-4483-9156-dc39f7d78632" valueTypeId="4960b1e0-84c6-4295-ad79-0f5d01937dad"/>
+    <recordKeyType typeId="50ae45ce-58da-4332-9125-44e5c655ae8f" valueTypeId="877d30fa-8cf7-4c06-a85f-769266fdd9e5"/>
+    <recordType typeId="3f66289a-135b-46ef-adc5-44094bf7003a" valueTypeId="21a20b8f-3b21-4f08-943e-d8c978e7b231"/>
+    <recordManagerType typeId="35cce112-6b2a-4910-b7d6-c909127dfa79" valueTypeId="5d0c9a6e-1f80-4ede-ab4e-90ae72b05107"/>
+  </producedTypes>
+  <name>ЗаданияНаРасчетСебестоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задания на расчет себестоимости</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="3e387aff-563e-4110-9190-36265f32c7de">
+    <name>Накладная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накладная</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РеализацияТоваровИУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

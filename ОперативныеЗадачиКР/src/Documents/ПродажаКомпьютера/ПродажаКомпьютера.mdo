@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78c4a178-cece-4ce1-a5d7-2702096cf84f">
+  <producedTypes>
+    <objectType typeId="16930913-65b8-4703-9106-73642d410d08" valueTypeId="b48184cc-dd45-4e67-9c35-db789158e466"/>
+    <refType typeId="ae8af088-3593-4f81-9ceb-b4c151d4ae0e" valueTypeId="732749d7-57cf-48c5-bfa1-2a4e1332fc6b"/>
+    <selectionType typeId="5154b78c-94a2-4fa0-af8e-fb83416e54a4" valueTypeId="bf1248e3-73c7-4ed3-900d-33bc2e78184c"/>
+    <listType typeId="a4d38251-bd37-4084-9710-ba2ba0d0bb52" valueTypeId="bd77096b-a377-4669-86a1-8a93da66a047"/>
+    <managerType typeId="511df3fe-aa97-40e4-88ea-cfad4299dcbe" valueTypeId="a5265738-4a52-4763-a3b2-671a99de44ee"/>
+  </producedTypes>
+  <name>ПродажаКомпьютера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажа компьютера</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПродажаКомпьютера.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.ЗаказПокупателя</basedOn>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПродажаКомпьютера.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ГотовыеКомпьютеры</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="77b44210-30a3-4f2e-906e-39dda0a5c366">
+    <name>Компьютер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компьютер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Компьютеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="587d032e-2cc9-4ef7-ba7e-6d550303bead">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="103346d5-4579-4dca-b9e8-5693100a9aa7">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПокупателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="50052f69-e420-415b-86c7-ca741445a69b">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fc3758a-378f-427a-84fb-ab9f080eb24d">
+  <producedTypes>
+    <selectionType typeId="1ec3b807-57be-422a-8444-23e7969d9069" valueTypeId="d640b2f5-192a-4ef3-b96a-6422bba9eff6"/>
+    <listType typeId="c3151f82-b352-4708-aff0-b3412687c48a" valueTypeId="d099a6ce-f366-4748-8c1e-beeea0f5b683"/>
+    <managerType typeId="dd0b9939-b0ff-40cf-9930-3c491b561539" valueTypeId="3619b8eb-b30b-4db1-962e-d291db3602a7"/>
+    <recordSetType typeId="a570d33a-0a5a-429a-80bf-d75d2bc92d16" valueTypeId="f2b5dd59-bdd5-4e0e-bf46-fe649e9c51b4"/>
+    <recordKeyType typeId="9f2ebada-7c26-4ffb-b2fe-5dd909d16a96" valueTypeId="4bb2ce74-2cd1-43e2-a331-8562e63f4052"/>
+    <recordType typeId="d84673b6-a2f7-4843-acc2-b698b8c76253" valueTypeId="1a95eea5-cb9a-43e4-852d-c6a30245917c"/>
+  </producedTypes>
+  <name>НачисленияСотрудникам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисления сотрудникам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="4b2a90af-8ec8-48bd-a7fa-b4f19905a880">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="472f9410-cf53-4717-bf88-3fc079349e53">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="00c04622-3ec9-49f6-8994-dc98f1c10ed0">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="5b91f390-acce-4578-896f-6cd174cde092">
+    <name>Компьютер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компьютер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Компьютеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

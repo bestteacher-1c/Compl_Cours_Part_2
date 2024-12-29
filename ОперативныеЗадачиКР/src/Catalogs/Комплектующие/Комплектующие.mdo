@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9bc6f8a8-1b43-4ae6-824b-ce6a5422bad3">
+  <producedTypes>
+    <objectType typeId="bf6bbba0-b377-4f2c-8be5-2f1165499c02" valueTypeId="754e673e-d4f6-46bf-8170-ec39e1c1a6cd"/>
+    <refType typeId="c6f49a2e-9f9b-4f64-a05f-ce99b3f61c3e" valueTypeId="32024c48-21f8-49d8-bd65-04f3334a688d"/>
+    <selectionType typeId="03d5f512-c640-4b5d-bb2c-a60d539e237b" valueTypeId="e29d9f18-e43f-46c3-9bf6-bea4d2b676a5"/>
+    <listType typeId="7709e79d-22cb-4a40-86b4-0b8d0e235f4f" valueTypeId="30fb1fb2-888d-44b8-8211-549393c2607e"/>
+    <managerType typeId="7f1da7e0-1cc9-44d1-99d2-5f5f589162ce" valueTypeId="310d040f-ac5f-4484-969d-61f04b2a1aab"/>
+  </producedTypes>
+  <name>Комплектующие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комплектующие</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Комплектующие.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Комплектующие.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <forms uuid="acdf2f78-2444-4037-8ae0-8291fc4feeea">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="707ad412-907d-493e-85d1-99a8ec09256f">
+  <producedTypes>
+    <selectionType typeId="1b800eb2-135d-4162-b77c-5b6b586a46a5" valueTypeId="3bd0ff74-ccb6-4ceb-986a-114c280bd2b4"/>
+    <listType typeId="45aedc3e-f863-403a-a626-02a5b0b4c0dd" valueTypeId="f1648d44-b5dd-47d9-9270-70a7f9350b42"/>
+    <managerType typeId="8fc636ea-4bd0-4c65-a128-9b434b5fd5a2" valueTypeId="5c890c54-a036-4de0-9ca7-570a233372c5"/>
+    <recordSetType typeId="a922a7e9-5285-4f88-a407-62d661adb828" valueTypeId="97c1f48e-0cba-42bf-bfb0-bc900b99e0f7"/>
+    <recordKeyType typeId="6f37d3d8-efa8-433d-bf1d-3d23635491ce" valueTypeId="4213684f-97ba-4a9b-86a1-c80abadee55b"/>
+    <recordType typeId="17644733-84c0-41dd-96b1-6d04b4785670" valueTypeId="dd72687e-c226-4ac4-8cc6-1e2037ed95e8"/>
+  </producedTypes>
+  <name>ГотовыеКомпьютеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Готовые компьютеры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="0752221a-ec34-4b18-b23a-7793d79af3cc">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="9aecdb58-2584-4a4c-a566-70a0c1752054">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПокупателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="40e3d8b2-2d9e-4f38-8649-3eaab1a53a42">
+    <name>Компьютер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компьютер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Компьютеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

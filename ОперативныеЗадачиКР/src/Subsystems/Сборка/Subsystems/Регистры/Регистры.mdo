@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63b3f0c0-123c-414a-85d3-1e8bf710b022">
+  <name>Регистры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистры</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.СпецификацииКомпьютеров</content>
+  <content>AccumulationRegister.ОстаткиКомплектующих</content>
+  <content>AccumulationRegister.ГотовыеКомпьютеры</content>
+  <content>AccumulationRegister.КомплектющиеВСборке</content>
+  <content>AccumulationRegister.НачисленияСотрудникам</content>
+  <parentSubsystem>Subsystem.Сборка</parentSubsystem>
+</mdclass:Subsystem>

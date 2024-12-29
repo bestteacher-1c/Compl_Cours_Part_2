@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02ee0eeb-de38-42ab-a80b-799cf29e1296">
+  <producedTypes>
+    <selectionType typeId="d7d07a57-8f4b-4d29-89d6-0c60fb637914" valueTypeId="a6ecbb7a-1dfb-4725-b402-72728f87e104"/>
+    <listType typeId="8e4fcbd9-d4fa-4add-ae1d-f1e3ad2cdcbf" valueTypeId="eedaab70-4268-4b51-9629-e2f33aa9474b"/>
+    <managerType typeId="0e6cc6ac-142b-4666-8224-889331aeb1cd" valueTypeId="207d5d3e-14e3-483e-baa6-423ef422423c"/>
+    <recordSetType typeId="5e3bfcef-8923-4b4a-b916-b2069d72d40c" valueTypeId="0245a7e4-f089-49c7-b3b0-a7600cb9c753"/>
+    <recordKeyType typeId="ae846dd8-4f4b-48fd-8810-7e9e10d7cea3" valueTypeId="a87cf657-c367-4962-9122-ee03b974d10a"/>
+    <recordType typeId="50c9c641-f650-4fd6-81ac-7f2e060c06ab" valueTypeId="3a12f2fa-ae20-4823-8e14-7f34148ca9c3"/>
+  </producedTypes>
+  <name>КомплектющиеВСборке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комплектющие в сборке</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="3dcde4a6-c38b-4fc2-9475-ca82b50931fb">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="0f9f9c53-50fe-4c67-997f-8bda5bb2f0e8">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПокупателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="4fd8398b-70f7-47b9-888e-69cee8baa654">
+    <name>Комплектующая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектующая</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Комплектующие</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

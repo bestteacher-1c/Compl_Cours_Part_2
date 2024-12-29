@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Sequence xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09014f9b-a53c-4490-99c8-da4049c728c5">
+  <producedTypes>
+    <recordType typeId="f658649d-1ba3-4257-8079-301dda843366" valueTypeId="35160134-8e21-455e-8d69-d3032e101a6b"/>
+    <managerType typeId="fff8acd3-5084-404a-8291-929dcc261f85" valueTypeId="834ecec8-e860-4ef4-ae8e-388831e01bfe"/>
+    <recordSetType typeId="5146341c-d3a2-423c-887b-f318b9791347" valueTypeId="8344d614-e01e-49b4-9af1-493b7bdb80dd"/>
+  </producedTypes>
+  <name>Себестоимость</name>
+  <synonym>
+    <key>ru</key>
+    <value>Себестоимость</value>
+  </synonym>
+  <moveBoundaryOnPosting>DontMove</moveBoundaryOnPosting>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
+  <registerRecords>AccumulationRegister.СебестоимостьТоваров</registerRecords>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Sequence>

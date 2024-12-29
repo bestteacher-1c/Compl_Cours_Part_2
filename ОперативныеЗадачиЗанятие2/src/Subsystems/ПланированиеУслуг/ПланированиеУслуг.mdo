@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4495d105-8ab2-440b-b67f-ab985cd5db38">
+  <name>ПланированиеУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование услуг</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОказаниеУслуг</picture>
+  </picture>
+  <content>Document.ПланированиеОказанияУслуг</content>
+  <content>Document.ОказаниеУслугСервисМенеджером</content>
+  <content>Document.РеализацияТоваровИУслуг</content>
+  <content>DocumentJournal.ПланированиеУслуг</content>
+  <content>Catalog.СервисМенеджеры</content>
+</mdclass:Subsystem>

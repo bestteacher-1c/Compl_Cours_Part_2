@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00d3e53c-a98c-42fb-8317-e1194b81ae0b">
+  <name>ТорговыеОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торговые операции</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Продажи</picture>
+  </picture>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Склады</content>
+  <content>Catalog.Менеджеры</content>
+  <content>Document.ПоступлениеТоваровИУслуг</content>
+  <content>Document.РеализацияТоваровИУслуг</content>
+  <content>Document.ПолучениеДенег</content>
+  <content>Document.ВыплатаДенег</content>
+  <content>Report.ОстаткиТоваровБезМакета</content>
+  <content>Report.ОстаткиТоваров_ТабДок_НаОсновеМакета</content>
+  <content>InformationRegister.НашиЦены</content>
+  <content>DocumentJournal.Товарный</content>
+</mdclass:Subsystem>

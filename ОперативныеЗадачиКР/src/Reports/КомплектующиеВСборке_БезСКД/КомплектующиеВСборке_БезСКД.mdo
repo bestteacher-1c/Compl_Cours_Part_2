@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a88711a8-0c88-48c7-8eae-3eebb92ef68f">
+  <producedTypes>
+    <objectType typeId="c15ed42a-3f11-4635-8430-d021eaf2c3f8" valueTypeId="7ded6379-c15f-4c9d-ae72-8b155f1cb904"/>
+    <managerType typeId="fa4987ee-f7c5-44d6-b7b5-028ab415894d" valueTypeId="46b732bb-85e8-4965-bcc6-4414dc00857b"/>
+  </producedTypes>
+  <name>КомплектующиеВСборке_БезСКД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комплектующие в сборке без СКД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.КомплектующиеВСборке_БезСКД.Form.ФормаОтчета</defaultForm>
+  <forms uuid="ff6563a4-9163-4a35-8d9b-872828cbc899">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="03024162-ae38-4f16-b9a6-e135e7ff9851">
+    <name>МакетЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет заказ</value>
+    </synonym>
+  </templates>
+  <templates uuid="6bfc6667-1e70-41de-aa36-d5d58b76b637">
+    <name>МакетКомплектующая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет комплектующая</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

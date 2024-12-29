@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50ca2468-1744-42c9-923c-843b2d2036eb">
+  <producedTypes>
+    <objectType typeId="bb756ff6-9837-4127-8e79-9d2a6fd3a019" valueTypeId="aa8d0b3a-aeff-4e4a-9723-ac8f61500ec7"/>
+    <refType typeId="7d0d58e9-5dc1-4f32-8bad-25e641660606" valueTypeId="74a7163f-0271-43e9-8d9f-2d26045c1df7"/>
+    <selectionType typeId="beacd101-1f40-45ab-a1b0-812c9840a3f8" valueTypeId="fd9b28ca-754d-41b6-8661-7cd8fb19e4c1"/>
+    <listType typeId="b5a10207-c2e5-4083-b225-71cb02c54e70" valueTypeId="94da05fa-eaaa-484f-a172-7216d8ec2b32"/>
+    <managerType typeId="e31e893e-dcb2-431e-b770-7daa1f11372f" valueTypeId="d2c6af9f-0ceb-415f-be1e-865287797d41"/>
+  </producedTypes>
+  <name>ОкончаниеСборки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Окончание сборки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОкончаниеСборки.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.ЗаказПокупателя</basedOn>
+  <basedOn>Document.НачалоСборки</basedOn>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ОкончаниеСборки.Form.ФормаДокумента</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccumulationRegister.КомплектющиеВСборке</registerRecords>
+  <registerRecords>AccumulationRegister.НачисленияСотрудникам</registerRecords>
+  <registerRecords>AccumulationRegister.ГотовыеКомпьютеры</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="d0561c41-f121-410d-8e77-e9b971b4770a">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0d8dd980-3434-45da-908d-e4b164ecc8ea">
+    <name>Компьютер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компьютер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Компьютеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f5a7c7ff-a641-4145-a7a6-49041b95072f">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПокупателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="63540f1b-496e-455c-88a2-40b43e8db03a">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

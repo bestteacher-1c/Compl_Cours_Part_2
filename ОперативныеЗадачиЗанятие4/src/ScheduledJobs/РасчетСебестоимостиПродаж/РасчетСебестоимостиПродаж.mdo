@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17316b32-8127-4bca-9173-bc9e9544970e">
+  <name>РасчетСебестоимостиПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет себестоимости продаж</value>
+  </synonym>
+  <methodName>CommonModule.Серверный.РасчетСебестоимостиПродаж</methodName>
+  <description>РасчетСебестоимостиПродаж</description>
+  <key>РасчетСебестоимостиПродаж</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>
