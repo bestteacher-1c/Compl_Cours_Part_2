@@ -29,7 +29,7 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.25</compatibilityMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
   <languages uuid="07a2eadd-4fb8-4404-a24d-7784d88b6e68">
     <name>Русский</name>
     <synonym>
