@@ -18,7 +18,6 @@
   <content>Document.РеализацияТоваровИУслуг</content>
   <content>Document.ПолучениеДенег</content>
   <content>Document.ВыплатаДенег</content>
-  <content>AccumulationRegister.СебестоимостьТоваров</content>
   <content>AccumulationRegister.Продажи</content>
   <content>AccumulationRegister.Касса</content>
   <content>AccumulationRegister.Взаиморасчеты</content>
