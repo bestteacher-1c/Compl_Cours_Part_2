@@ -601,7 +601,7 @@
         </userVisible>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>InformationRegister.ПланированиеОказаниеУслуг.StandardCommand.OpenByRecorder</command>
+        <command>InformationRegister.ПланированиеОказанияУслуг.StandardCommand.OpenByRecorder</command>
         <userVisible>
           <common>true</common>
         </userVisible>

@@ -12,6 +12,6 @@
   </picture>
   <content>Document.ПланированиеОказанияУслуг</content>
   <content>Document.ОказаниеУслугСервисМенеджером</content>
-  <content>InformationRegister.ПланированиеОказаниеУслуг</content>
+  <content>InformationRegister.ПланированиеОказанияУслуг</content>
   <content>DocumentJournal.ПланированиеУслуг</content>
 </mdclass:Subsystem>

@@ -94,7 +94,7 @@
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.РасчетСебестоимости</dataProcessors>
   <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
-  <informationRegisters>InformationRegister.ПланированиеОказаниеУслуг</informationRegisters>
+  <informationRegisters>InformationRegister.ПланированиеОказанияУслуг</informationRegisters>
   <informationRegisters>InformationRegister.ЗаданияНаРасчетСебестоимости</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>

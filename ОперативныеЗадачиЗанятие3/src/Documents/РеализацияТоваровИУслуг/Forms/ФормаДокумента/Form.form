@@ -922,7 +922,7 @@
         </userVisible>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>InformationRegister.ПланированиеОказаниеУслуг.StandardCommand.OpenByRecorder</command>
+        <command>InformationRegister.ПланированиеОказанияУслуг.StandardCommand.OpenByRecorder</command>
         <group>FormNavigationPanelGoTo</group>
         <index>6</index>
         <userVisible>

@@ -20,7 +20,7 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>InformationRegister.ПланированиеОказаниеУслуг.StandardCommand.OpenList</command>
+      <command>InformationRegister.ПланированиеОказанияУслуг.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
@@ -38,7 +38,7 @@
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.Регистры</group>
-      <commands>InformationRegister.ПланированиеОказаниеУслуг.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ПланированиеОказанияУслуг.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -53,7 +53,7 @@
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.Регистры</group>
-      <commands>InformationRegister.ПланированиеОказаниеУслуг.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ПланированиеОказанияУслуг.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

@@ -923,7 +923,7 @@
         <index>0</index>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>InformationRegister.ПланированиеОказаниеУслуг.StandardCommand.OpenByRecorder</command>
+        <command>InformationRegister.ПланированиеОказанияУслуг.StandardCommand.OpenByRecorder</command>
         <group>FormNavigationPanelSeeAlso</group>
         <index>0</index>
       </cmiFragmentRecord>

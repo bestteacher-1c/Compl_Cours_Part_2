@@ -65,7 +65,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПланированиеОказанияУслуг.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>InformationRegister.ПланированиеОказаниеУслуг</registerRecords>
+  <registerRecords>InformationRegister.ПланированиеОказанияУслуг</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="3f546c3d-2e40-4df3-b006-6becd598fec1">

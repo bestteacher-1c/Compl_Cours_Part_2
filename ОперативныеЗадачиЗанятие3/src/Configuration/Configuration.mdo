@@ -87,7 +87,7 @@
   <reports>Report.ВедомостьПоТоварам</reports>
   <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
-  <informationRegisters>InformationRegister.ПланированиеОказаниеУслуг</informationRegisters>
+  <informationRegisters>InformationRegister.ПланированиеОказанияУслуг</informationRegisters>
   <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>

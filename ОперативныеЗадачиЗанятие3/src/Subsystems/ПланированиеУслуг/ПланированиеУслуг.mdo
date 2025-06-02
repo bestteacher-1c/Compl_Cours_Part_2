@@ -15,5 +15,5 @@
   <content>Document.РеализацияТоваровИУслуг</content>
   <content>DocumentJournal.ПланированиеУслуг</content>
   <content>Catalog.СервисМенеджеры</content>
-  <content>InformationRegister.ПланированиеОказаниеУслуг</content>
+  <content>InformationRegister.ПланированиеОказанияУслуг</content>
 </mdclass:Subsystem>
