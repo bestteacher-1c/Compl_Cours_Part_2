@@ -74,12 +74,6 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>AccumulationRegister.СебестоимостьТоваров.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>AccumulationRegister.Продажи.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
@@ -144,7 +138,6 @@
     <placementFragments>
       <group>CommandGroup.Регистры</group>
       <commands>InformationRegister.НашиЦены.StandardCommand.OpenList</commands>
-      <commands>AccumulationRegister.СебестоимостьТоваров.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Взаиморасчеты.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Касса.StandardCommand.OpenList</commands>
@@ -178,7 +171,6 @@
     <orderFragments>
       <group>CommandGroup.Регистры</group>
       <commands>InformationRegister.НашиЦены.StandardCommand.OpenList</commands>
-      <commands>AccumulationRegister.СебестоимостьТоваров.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Взаиморасчеты.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Касса.StandardCommand.OpenList</commands>

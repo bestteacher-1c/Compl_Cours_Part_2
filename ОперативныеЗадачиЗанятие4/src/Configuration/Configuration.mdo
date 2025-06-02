@@ -87,6 +87,7 @@
   <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
   <informationRegisters>InformationRegister.ПланированиеОказанияУслуг</informationRegisters>
   <informationRegisters>InformationRegister.ЗаданияНаРасчетСебестоимости</informationRegisters>
+  <informationRegisters>InformationRegister.УчетнаяПолитика</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Касса</accumulationRegisters>
@@ -94,6 +95,5 @@
   <accumulationRegisters>AccumulationRegister.ЗаказыПоставщикам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыВРезерве</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СвободныеОстатки</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.СебестоимостьТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СебестоимостьТоваровПоПартиям</accumulationRegisters>
 </mdclass:Configuration>

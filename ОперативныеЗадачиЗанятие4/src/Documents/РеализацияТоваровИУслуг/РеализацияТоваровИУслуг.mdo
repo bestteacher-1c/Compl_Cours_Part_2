@@ -76,7 +76,6 @@
   <registerRecords>AccumulationRegister.ТоварыВРезерве</registerRecords>
   <registerRecords>AccumulationRegister.СвободныеОстатки</registerRecords>
   <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
-  <registerRecords>AccumulationRegister.СебестоимостьТоваров</registerRecords>
   <registerRecords>InformationRegister.ПланированиеОказанияУслуг</registerRecords>
   <registerRecords>AccumulationRegister.СебестоимостьТоваровПоПартиям</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>

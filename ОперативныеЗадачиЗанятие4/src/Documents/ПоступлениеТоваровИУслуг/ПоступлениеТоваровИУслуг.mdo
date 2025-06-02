@@ -34,7 +34,6 @@
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
   <registerRecords>AccumulationRegister.СвободныеОстатки</registerRecords>
   <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
-  <registerRecords>AccumulationRegister.СебестоимостьТоваров</registerRecords>
   <registerRecords>AccumulationRegister.СебестоимостьТоваровПоПартиям</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
