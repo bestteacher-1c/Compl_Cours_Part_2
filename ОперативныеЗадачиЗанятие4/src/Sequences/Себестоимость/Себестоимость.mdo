@@ -12,6 +12,6 @@
   </synonym>
   <moveBoundaryOnPosting>DontMove</moveBoundaryOnPosting>
   <documents>Document.РеализацияТоваровИУслуг</documents>
-  <registerRecords>AccumulationRegister.СебестоимостьТоваровПоПартиям</registerRecords>
+  <registerRecords>AccumulationRegister.СебестоимостьТоваров</registerRecords>
   <dataLockControlMode>Managed</dataLockControlMode>
 </mdclass:Sequence>

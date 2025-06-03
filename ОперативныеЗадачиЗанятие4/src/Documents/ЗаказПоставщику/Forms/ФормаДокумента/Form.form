@@ -681,7 +681,7 @@
         </userVisible>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>AccumulationRegister.СебестоимостьТоваровПоПартиям.StandardCommand.OpenByRecorder</command>
+        <command>AccumulationRegister.СебестоимостьТоваров.StandardCommand.OpenByRecorder</command>
         <userVisible>
           <common>true</common>
         </userVisible>

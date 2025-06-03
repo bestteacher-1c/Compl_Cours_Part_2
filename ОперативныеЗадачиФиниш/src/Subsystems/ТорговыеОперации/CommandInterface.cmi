@@ -98,7 +98,7 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>AccumulationRegister.СебестоимостьТоваровПоПартиям.StandardCommand.OpenList</command>
+      <command>AccumulationRegister.СебестоимостьТоваров.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
@@ -142,9 +142,10 @@
       <commands>AccumulationRegister.Взаиморасчеты.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Касса.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ОстаткиТоваров.StandardCommand.OpenList</commands>
-      <commands>AccumulationRegister.СебестоимостьТоваровПоПартиям.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.СебестоимостьТоваров.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ТоварыВРезерве.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ЗаказыПоставщикам.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.УчетнаяПолитика.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -170,12 +171,13 @@
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.Регистры</group>
+      <commands>InformationRegister.УчетнаяПолитика.StandardCommand.OpenList</commands>
       <commands>InformationRegister.НашиЦены.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Взаиморасчеты.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Касса.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ОстаткиТоваров.StandardCommand.OpenList</commands>
-      <commands>AccumulationRegister.СебестоимостьТоваровПоПартиям.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.СебестоимостьТоваров.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ТоварыВРезерве.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ЗаказыПоставщикам.StandardCommand.OpenList</commands>
     </orderFragments>

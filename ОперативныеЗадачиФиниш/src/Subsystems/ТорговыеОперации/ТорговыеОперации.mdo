@@ -29,7 +29,7 @@
   <content>AccumulationRegister.ОстаткиТоваров</content>
   <content>AccumulationRegister.ТоварыВРезерве</content>
   <content>Report.ВзаиморасчетыСКонтрагентами</content>
-  <content>AccumulationRegister.СебестоимостьТоваровПоПартиям</content>
+  <content>AccumulationRegister.СебестоимостьТоваров</content>
   <content>DataProcessor.РасчетСебестоимости</content>
   <content>AccumulationRegister.ЗаказыПоставщикам</content>
   <content>Document.ЗаказПоставщику</content>
@@ -37,4 +37,5 @@
   <content>Report.ЗакупкиПоОтветственным</content>
   <content>Report.ВедомостьПоТоварам</content>
   <content>Sequence.Себестоимость</content>
+  <content>InformationRegister.УчетнаяПолитика</content>
 </mdclass:Subsystem>

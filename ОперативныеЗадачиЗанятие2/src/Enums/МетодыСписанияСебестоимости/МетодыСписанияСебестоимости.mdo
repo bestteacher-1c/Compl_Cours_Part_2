@@ -20,10 +20,10 @@
     </synonym>
   </enumValues>
   <enumValues uuid="276da623-8d96-4c5a-a791-460dc101197e">
-    <name>ЛИФО</name>
+    <name>ПоСредней</name>
     <synonym>
       <key>ru</key>
-      <value>ЛИФО</value>
+      <value>По средней</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

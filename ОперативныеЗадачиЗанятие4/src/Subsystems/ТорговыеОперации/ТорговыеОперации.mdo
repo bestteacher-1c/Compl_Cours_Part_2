@@ -28,7 +28,7 @@
   <content>AccumulationRegister.ОстаткиТоваров</content>
   <content>AccumulationRegister.ТоварыВРезерве</content>
   <content>Report.ВзаиморасчетыСКонтрагентами</content>
-  <content>AccumulationRegister.СебестоимостьТоваровПоПартиям</content>
+  <content>AccumulationRegister.СебестоимостьТоваров</content>
   <content>DataProcessor.РасчетСебестоимости</content>
   <content>AccumulationRegister.ЗаказыПоставщикам</content>
   <content>Document.ЗаказПоставщику</content>

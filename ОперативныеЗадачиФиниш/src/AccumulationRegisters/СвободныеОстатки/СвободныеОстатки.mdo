@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60b8d0c3-8ab4-4c21-ad8e-c75ea497fcf2">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b6c73f5-0109-41bf-9400-3980604e44ca">
   <producedTypes>
-    <selectionType typeId="e2bd8711-eb57-4ea5-baa9-a4d56dc094ad" valueTypeId="d4e5195c-6b8c-4cde-bb55-4a6719cd717a"/>
-    <listType typeId="ea6051d5-1a3a-418b-aeab-13c0318d6e1d" valueTypeId="c41f28c7-c80d-4480-b404-e13c512c29bf"/>
-    <managerType typeId="c0ab4ebf-0bfb-4c2d-a768-1f0dbe14bd93" valueTypeId="ebbdd186-774e-4c9f-8c14-55bfc16183ca"/>
-    <recordSetType typeId="5426677e-126b-426c-b18c-98bd0d83c3de" valueTypeId="a9863863-3bce-4aea-8087-a848be78e8a8"/>
-    <recordKeyType typeId="3d549fd4-5b84-402c-a75c-2f74a9f01e82" valueTypeId="660dd0dc-8345-4463-8141-dd8a02cda0ad"/>
-    <recordType typeId="9d778ffd-0e12-45aa-aac3-6d84f787d765" valueTypeId="47344e8a-2307-4aec-89a7-0ec5a60471e2"/>
+    <selectionType typeId="6ad9d296-8a4b-4a62-90d0-2f25eb008e28" valueTypeId="646674d3-60db-4af9-b34b-cb657f11642c"/>
+    <listType typeId="9dbd237b-ca56-4bbd-91cb-0925ac7c0d09" valueTypeId="1a86d554-1df0-4be6-b20e-87c98004cb09"/>
+    <managerType typeId="1541431a-afeb-4433-87bc-098807558290" valueTypeId="5805b7a3-4e45-4473-b290-f03996cfe3a4"/>
+    <recordSetType typeId="8a2ee5c8-1f21-415e-be84-901b9596d9ff" valueTypeId="18a9ecc3-4631-4870-8c7e-26cece34421e"/>
+    <recordKeyType typeId="71230594-7f73-4c09-a37c-0f5a1b690371" valueTypeId="64b88f5b-c136-42e8-be8e-26c0b113853f"/>
+    <recordType typeId="f9cf2621-5a3f-4d3a-9e4b-513e211a047a" valueTypeId="b67adac5-6455-454d-8a6e-b82ddcc812ea"/>
   </producedTypes>
   <name>СвободныеОстатки</name>
   <synonym>
@@ -59,24 +59,20 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="17136d6d-ff60-4dca-a691-42cb1f7480be">
+  <resources uuid="d51754bf-bd64-46f8-8554-29e7d27444ba">
     <name>Количество</name>
     <synonym>
       <key>ru</key>
       <value>Количество</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>3</scale>
-      </numberQualifiers>
+      <types>DefinedType.Количество</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="9ff32bb3-ffee-448e-9aa3-ced97b10e9f9">
+  <dimensions uuid="c6404eaf-acfd-442a-9b3e-72fd68e3b918">
     <name>Номенклатура</name>
     <synonym>
       <key>ru</key>
@@ -90,7 +86,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="257c1498-f362-4b62-98b4-391c9801b726">
+  <dimensions uuid="be834c31-3dae-4c06-85da-f8d860417dc9">
     <name>Склад</name>
     <synonym>
       <key>ru</key>
@@ -104,7 +100,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <forms uuid="0c0d9fd7-5198-4791-8fa9-a00a00d0842d">
+  <forms uuid="1d3e09d9-df03-4297-a39b-819e32722eaa">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

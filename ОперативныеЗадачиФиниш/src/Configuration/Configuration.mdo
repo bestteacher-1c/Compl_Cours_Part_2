@@ -95,13 +95,14 @@
   <dataProcessors>DataProcessor.РасчетСебестоимости</dataProcessors>
   <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
   <informationRegisters>InformationRegister.ПланированиеОказанияУслуг</informationRegisters>
+  <informationRegisters>InformationRegister.УчетнаяПолитика</informationRegisters>
   <informationRegisters>InformationRegister.ЗаданияНаРасчетСебестоимости</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Касса</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗаказыПоставщикам</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.ТоварыВРезерве</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СвободныеОстатки</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.СебестоимостьТоваровПоПартиям</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыВРезерве</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СебестоимостьТоваров</accumulationRegisters>
 </mdclass:Configuration>

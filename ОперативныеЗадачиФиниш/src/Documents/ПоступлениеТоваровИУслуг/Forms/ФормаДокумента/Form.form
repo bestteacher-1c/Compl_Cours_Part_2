@@ -701,12 +701,6 @@
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
         <command>AccumulationRegister.Взаиморасчеты.StandardCommand.OpenByRecorder</command>
         <group>FormNavigationPanelSeeAlso</group>
         <index>0</index>
@@ -716,20 +710,6 @@
       </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>AccumulationRegister.СебестоимостьТоваров.StandardCommand.OpenByRecorder</command>
-        <group>FormNavigationPanelGoTo</group>
-        <index>0</index>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>AccumulationRegister.СебестоимостьТоваровПоПартиям.StandardCommand.OpenByRecorder</command>
         <group>FormNavigationPanelGoTo</group>
         <index>1</index>
         <userVisible>

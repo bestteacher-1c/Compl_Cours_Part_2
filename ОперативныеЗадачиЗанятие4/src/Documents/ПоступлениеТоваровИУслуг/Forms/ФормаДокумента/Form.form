@@ -730,7 +730,7 @@
         </userVisible>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>AccumulationRegister.СебестоимостьТоваровПоПартиям.StandardCommand.OpenByRecorder</command>
+        <command>AccumulationRegister.СебестоимостьТоваров.StandardCommand.OpenByRecorder</command>
         <group>FormNavigationPanelGoTo</group>
         <index>1</index>
         <userVisible>

@@ -95,5 +95,5 @@
   <accumulationRegisters>AccumulationRegister.ЗаказыПоставщикам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыВРезерве</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СвободныеОстатки</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.СебестоимостьТоваровПоПартиям</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СебестоимостьТоваров</accumulationRegisters>
 </mdclass:Configuration>
