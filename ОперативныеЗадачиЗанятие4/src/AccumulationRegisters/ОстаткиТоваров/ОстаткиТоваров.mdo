@@ -71,6 +71,32 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
+  <resources uuid="1868f184-de32-40e6-99c5-1daf80636f19">
+    <name>Резерв</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резерв</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Количество</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="aa0edf1c-7cee-4aa3-a54b-c643a3120fbe">
+    <name>Свободно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свободно</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Количество</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
   <attributes uuid="105cd976-a5b1-46fc-901e-fd49a4fce082">
     <name>ОтветственныйЗаЗакупки</name>
     <synonym>

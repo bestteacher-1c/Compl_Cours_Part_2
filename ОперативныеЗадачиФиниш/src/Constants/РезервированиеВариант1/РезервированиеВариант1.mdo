@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed9159e6-3263-42a6-9141-ce7b83d98efe">
+  <producedTypes>
+    <managerType typeId="f48f88ce-9e25-4014-9f95-9dc90c16ee3c" valueTypeId="e185ed49-58e9-4844-8663-1ce17ca1fcd0"/>
+    <valueManagerType typeId="aec3440d-7505-4f24-abc5-b7ae3bc1555b" valueTypeId="aecec768-b265-4863-9aaf-cb1fc0d9d96f"/>
+    <valueKeyType typeId="8c26ca9e-9088-44eb-b621-aa7407337ef3" valueTypeId="0ddad465-5570-43b8-bd5d-0240d4321c38"/>
+  </producedTypes>
+  <name>РезервированиеВариант1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Резервирование вариант1</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

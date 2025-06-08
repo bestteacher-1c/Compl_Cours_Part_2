@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61555bfc-a22c-4267-8d9f-864074b0e0ce">
+  <name>РезервированиеВариант2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Резервирование вариант2</value>
+  </synonym>
+  <location>Constant.РезервированиеВариант2</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Report.ВедомостьПоТоварам_Вариант2</content>
+</mdclass:FunctionalOption>

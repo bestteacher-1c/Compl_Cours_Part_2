@@ -38,4 +38,5 @@
   <content>Sequence.Товарная</content>
   <content>InformationRegister.ЗаданияНаРасчетСебестоимости</content>
   <content>InformationRegister.УчетнаяПолитика</content>
+  <content>Constant.РезервированиеВариант2</content>
 </mdclass:Subsystem>

@@ -59,6 +59,8 @@
   <commonModules>CommonModule.Серверный</commonModules>
   <eventSubscriptions>EventSubscription.УстановкаНовогоНомера</eventSubscriptions>
   <scheduledJobs>ScheduledJob.РасчетСебестоимостиПродаж</scheduledJobs>
+  <functionalOptions>FunctionalOption.РезервированиеВариант1</functionalOptions>
+  <functionalOptions>FunctionalOption.РезервированиеВариант2</functionalOptions>
   <definedTypes>DefinedType.Количество</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСумма</definedTypes>
   <commandGroups>CommandGroup.Документы</commandGroups>
@@ -66,6 +68,8 @@
   <commandGroups>CommandGroup.Регистры</commandGroups>
   <commandGroups>CommandGroup.Отчеты</commandGroups>
   <constants>Constant.ПервыйЗапуск</constants>
+  <constants>Constant.РезервированиеВариант2</constants>
+  <constants>Constant.РезервированиеВариант1</constants>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Склады</catalogs>
@@ -88,8 +92,9 @@
   <reports>Report.ВзаиморасчетыСКонтрагентами</reports>
   <reports>Report.ЗакупкиПоОтветственным</reports>
   <reports>Report.Продажи</reports>
-  <reports>Report.ВаловаяПрибыльДокумента</reports>
   <reports>Report.ВедомостьПоТоварам</reports>
+  <reports>Report.ВаловаяПрибыльДокумента</reports>
+  <reports>Report.ВедомостьПоТоварам_Вариант2</reports>
   <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.РасчетСебестоимости</dataProcessors>

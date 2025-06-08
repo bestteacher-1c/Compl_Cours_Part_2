@@ -58,6 +58,7 @@
   <commandGroups>CommandGroup.Регистры</commandGroups>
   <commandGroups>CommandGroup.Отчеты</commandGroups>
   <constants>Constant.ПервыйЗапуск</constants>
+  <constants>Constant.РезервированиеВариант2</constants>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Склады</catalogs>

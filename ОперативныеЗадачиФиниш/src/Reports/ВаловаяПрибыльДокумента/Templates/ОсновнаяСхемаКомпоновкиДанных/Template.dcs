@@ -20,13 +20,19 @@
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Себестоимость</dataPath>
-			<field>Себестоимость</field>
+			<field>Сумма</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Себестоимость</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ОстаткиТоваров.Номенклатура,
 	ОстаткиТоваров.Количество,
-	ОстаткиТоваров.Себестоимость,
+	ОстаткиТоваров.Сумма,
 	ОстаткиТоваров.СуммаПродажи
 ИЗ
 	РегистрНакопления.СебестоимостьТоваров КАК ОстаткиТоваров
@@ -54,10 +60,6 @@
 	<totalField>
 		<dataPath>СуммаПродажи</dataPath>
 		<expression>Сумма(СуммаПродажи)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>Себестоимость</dataPath>
-		<expression>Сумма(Себестоимость)</expression>
 	</totalField>
 	<parameter>
 		<name>Регистратор</name>

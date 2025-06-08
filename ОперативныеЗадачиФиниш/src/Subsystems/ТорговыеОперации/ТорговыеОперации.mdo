@@ -38,4 +38,6 @@
   <content>Report.ВедомостьПоТоварам</content>
   <content>Sequence.Себестоимость</content>
   <content>InformationRegister.УчетнаяПолитика</content>
+  <content>Constant.РезервированиеВариант2</content>
+  <content>Report.ВедомостьПоТоварам_Вариант2</content>
 </mdclass:Subsystem>
