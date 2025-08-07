@@ -75,9 +75,9 @@
   <registerRecords>AccumulationRegister.Продажи</registerRecords>
   <registerRecords>AccumulationRegister.ТоварыВРезерве</registerRecords>
   <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
+  <registerRecords>AccumulationRegister.СвободныеОстатки</registerRecords>
   <registerRecords>InformationRegister.ПланированиеОказанияУслуг</registerRecords>
   <registerRecords>AccumulationRegister.СебестоимостьТоваров</registerRecords>
-  <registerRecords>AccumulationRegister.СвободныеОстатки</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="71527822-7c96-4a11-a45d-644f9459e76f">

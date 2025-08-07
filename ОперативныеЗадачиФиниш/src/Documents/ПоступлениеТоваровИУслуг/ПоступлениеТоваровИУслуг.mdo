@@ -33,8 +33,8 @@
   <registerRecords>AccumulationRegister.ЗаказыПоставщикам</registerRecords>
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
   <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
-  <registerRecords>AccumulationRegister.СебестоимостьТоваров</registerRecords>
   <registerRecords>AccumulationRegister.СвободныеОстатки</registerRecords>
+  <registerRecords>AccumulationRegister.СебестоимостьТоваров</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="dcfc3364-4e61-44fa-9678-5de6f4d2565e">
