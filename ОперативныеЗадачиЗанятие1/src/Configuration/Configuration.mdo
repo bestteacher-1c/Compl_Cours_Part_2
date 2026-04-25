@@ -22,6 +22,7 @@
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
   <mainSectionPicture/>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <logo/>
@@ -37,8 +38,9 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
-  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.27</compatibilityMode>
+  <interfaceCompatibilityMode>Version8_5</interfaceCompatibilityMode>
+  <version85InterfaceMigrationMode>Use</version85InterfaceMigrationMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
   <languages uuid="1c4e2401-555b-46e4-a5ed-92d24a3b8684">
     <name>Русский</name>
     <synonym>

@@ -206,9 +206,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
     <attributes uuid="42fd87d5-5068-48fd-887d-4e9cfed34539">
       <name>Текст</name>
@@ -222,9 +220,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
     <attributes uuid="55e16dc1-f2f2-42c7-8691-ce063f164cbc">
       <name>ВремяВыполнения</name>
@@ -297,9 +293,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
     <attributes uuid="56fc29c2-f5f6-4c9c-a1ef-05411d8fbba7">
       <name>Заголовок</name>
@@ -390,9 +384,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
     <attributes uuid="25fb0ad8-f7ab-4ec7-8127-53cca757b5b8">
       <name>Тип</name>
@@ -406,9 +398,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
     <attributes uuid="2cc6309a-f130-407f-8ff3-ca666563f03c">
       <name>Значение</name>
@@ -422,9 +412,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
     <attributes uuid="f7dc7e76-bcf3-4b66-a41a-d2906ccd60d8">
       <name>ТипИзФайла</name>
