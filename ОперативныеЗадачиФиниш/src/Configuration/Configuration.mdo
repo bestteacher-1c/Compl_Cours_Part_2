@@ -26,6 +26,7 @@
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
   <mainSectionPicture/>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <logo/>
@@ -40,8 +41,9 @@
   </vendorInformationAddress>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
-  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.27</compatibilityMode>
+  <interfaceCompatibilityMode>Version8_5EnableTaxi</interfaceCompatibilityMode>
+  <version85InterfaceMigrationMode>Use</version85InterfaceMigrationMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
   <languages uuid="1c4e2401-555b-46e4-a5ed-92d24a3b8684">
     <name>Русский</name>
     <synonym>
@@ -55,12 +57,11 @@
   <commonPictures>CommonPicture.Продажи</commonPictures>
   <commonPictures>CommonPicture.ОказаниеУслуг</commonPictures>
   <commonPictures>CommonPicture.ФоновыйПроцесс</commonPictures>
+  <interfaces>Interface.ОсновнойИнтерфейс</interfaces>
   <commonModules>CommonModule.Сервис</commonModules>
   <commonModules>CommonModule.Серверный</commonModules>
   <eventSubscriptions>EventSubscription.УстановкаНовогоНомера</eventSubscriptions>
   <scheduledJobs>ScheduledJob.РасчетСебестоимостиПродаж</scheduledJobs>
-  <functionalOptions>FunctionalOption.РезервированиеВариант1</functionalOptions>
-  <functionalOptions>FunctionalOption.РезервированиеВариант2</functionalOptions>
   <definedTypes>DefinedType.Количество</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСумма</definedTypes>
   <commandGroups>CommandGroup.Документы</commandGroups>
@@ -68,8 +69,6 @@
   <commandGroups>CommandGroup.Регистры</commandGroups>
   <commandGroups>CommandGroup.Отчеты</commandGroups>
   <constants>Constant.ПервыйЗапуск</constants>
-  <constants>Constant.РезервированиеВариант2</constants>
-  <constants>Constant.РезервированиеВариант1</constants>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Склады</catalogs>
@@ -92,22 +91,21 @@
   <reports>Report.ВзаиморасчетыСКонтрагентами</reports>
   <reports>Report.ЗакупкиПоОтветственным</reports>
   <reports>Report.Продажи</reports>
-  <reports>Report.ВедомостьПоТоварам</reports>
   <reports>Report.ВаловаяПрибыльДокумента</reports>
-  <reports>Report.ВедомостьПоТоварам_Вариант2</reports>
+  <reports>Report.ВедомостьПоТоварам</reports>
   <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.РасчетСебестоимости</dataProcessors>
   <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
-  <informationRegisters>InformationRegister.ПланированиеОказанияУслуг</informationRegisters>
-  <informationRegisters>InformationRegister.УчетнаяПолитика</informationRegisters>
+  <informationRegisters>InformationRegister.ПланированиеОказаниеУслуг</informationRegisters>
   <informationRegisters>InformationRegister.ЗаданияНаРасчетСебестоимости</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Касса</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗаказыПоставщикам</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.СвободныеОстатки</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыВРезерве</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СвободныеОстатки</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СебестоимостьТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СебестоимостьТоваровПоПартиям</accumulationRegisters>
 </mdclass:Configuration>

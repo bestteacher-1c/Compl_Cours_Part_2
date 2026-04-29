@@ -20,19 +20,13 @@
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Себестоимость</dataPath>
-			<field>Сумма</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Себестоимость</v8:content>
-				</v8:item>
-			</title>
+			<field>Себестоимость</field>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ОстаткиТоваров.Номенклатура,
 	ОстаткиТоваров.Количество,
-	ОстаткиТоваров.Сумма,
+	ОстаткиТоваров.Себестоимость,
 	ОстаткиТоваров.СуммаПродажи
 ИЗ
 	РегистрНакопления.СебестоимостьТоваров КАК ОстаткиТоваров
@@ -61,6 +55,10 @@
 		<dataPath>СуммаПродажи</dataPath>
 		<expression>Сумма(СуммаПродажи)</expression>
 	</totalField>
+	<totalField>
+		<dataPath>Себестоимость</dataPath>
+		<expression>Сумма(Себестоимость)</expression>
+	</totalField>
 	<parameter>
 		<name>Регистратор</name>
 		<title xsi:type="v8:LocalStringType">
@@ -80,7 +78,7 @@
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
-		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+		<dcsset:settings xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Количество</dcsset:field>

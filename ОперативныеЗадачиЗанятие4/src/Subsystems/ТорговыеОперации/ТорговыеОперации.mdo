@@ -18,6 +18,7 @@
   <content>Document.РеализацияТоваровИУслуг</content>
   <content>Document.ПолучениеДенег</content>
   <content>Document.ВыплатаДенег</content>
+  <content>AccumulationRegister.СебестоимостьТоваров</content>
   <content>AccumulationRegister.Продажи</content>
   <content>AccumulationRegister.Касса</content>
   <content>AccumulationRegister.Взаиморасчеты</content>
@@ -28,7 +29,7 @@
   <content>AccumulationRegister.ОстаткиТоваров</content>
   <content>AccumulationRegister.ТоварыВРезерве</content>
   <content>Report.ВзаиморасчетыСКонтрагентами</content>
-  <content>AccumulationRegister.СебестоимостьТоваров</content>
+  <content>AccumulationRegister.СебестоимостьТоваровПоПартиям</content>
   <content>DataProcessor.РасчетСебестоимости</content>
   <content>AccumulationRegister.ЗаказыПоставщикам</content>
   <content>Document.ЗаказПоставщику</content>
@@ -37,6 +38,4 @@
   <content>Sequence.Себестоимость</content>
   <content>Sequence.Товарная</content>
   <content>InformationRegister.ЗаданияНаРасчетСебестоимости</content>
-  <content>InformationRegister.УчетнаяПолитика</content>
-  <content>Constant.РезервированиеВариант2</content>
 </mdclass:Subsystem>
