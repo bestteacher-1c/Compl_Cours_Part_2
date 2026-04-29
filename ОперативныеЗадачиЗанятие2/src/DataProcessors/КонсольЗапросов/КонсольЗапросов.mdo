@@ -266,9 +266,7 @@
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
     <attributes uuid="f4cd4136-8996-4d51-8122-fec2f025bc48">
       <name>ВремяВыполнения</name>
@@ -357,9 +355,7 @@
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
     <attributes uuid="4a239f43-57e8-4c64-a5cd-4e1a982047f7">
       <name>АдресХранилищаПланаЗапроса</name>
@@ -373,9 +369,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
     <attributes uuid="b632bf53-1f8f-4781-81e1-3118e2944d26">
       <name>Заголовок</name>
@@ -481,9 +475,7 @@
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
     <attributes uuid="d3400c1a-ed90-4575-a0f8-e10623102559">
       <name>Тип</name>
@@ -502,9 +494,7 @@
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
     <attributes uuid="3334fe32-8b18-4fe3-87a1-87b76ac65abd">
       <name>Значение</name>
@@ -523,9 +513,7 @@
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
     <attributes uuid="eb2907c0-cbf6-4051-9a7e-51f211eb655c">
       <name>ТипИзФайла</name>

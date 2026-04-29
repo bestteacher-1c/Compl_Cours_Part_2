@@ -31,6 +31,7 @@
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
   <mainSectionPicture/>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <logo/>
@@ -45,8 +46,9 @@
   </vendorInformationAddress>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
-  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.27</compatibilityMode>
+  <interfaceCompatibilityMode>Version8_5EnableTaxi</interfaceCompatibilityMode>
+  <version85InterfaceMigrationMode>Use</version85InterfaceMigrationMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
   <languages uuid="1c4e2401-555b-46e4-a5ed-92d24a3b8684">
     <name>Русский</name>
     <synonym>
@@ -60,6 +62,7 @@
   <commonPictures>CommonPicture.Продажи</commonPictures>
   <commonPictures>CommonPicture.ОказаниеУслуг</commonPictures>
   <commonPictures>CommonPicture.ФоновыйПроцесс</commonPictures>
+  <interfaces>Interface.ОсновнойИнтерфейс</interfaces>
   <commonModules>CommonModule.Сервис</commonModules>
   <commonModules>CommonModule.Серверный</commonModules>
   <eventSubscriptions>EventSubscription.УстановкаНовогоНомера</eventSubscriptions>
@@ -92,7 +95,6 @@
   <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
-  <informationRegisters>InformationRegister.ПланированиеОказанияУслуг</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Касса</accumulationRegisters>
