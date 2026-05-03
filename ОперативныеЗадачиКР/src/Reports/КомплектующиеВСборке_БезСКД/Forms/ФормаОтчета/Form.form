@@ -57,6 +57,7 @@
               <value>Enum.ВариантыВыводаОтчетов.EnumValue.ПоЗаказам</value>
             </value>
           </choiceList>
+          <orientation>Vertical</orientation>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -89,7 +90,7 @@
         <representation>StrongSeparation</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
         <throughAlign>Auto</throughAlign>
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
@@ -132,6 +133,7 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -228,6 +230,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.Сформировать</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -240,6 +243,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <windowOpeningMode>DontBlock</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -248,7 +252,7 @@
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
   <verticalScroll>UseIfNecessary</verticalScroll>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Отчет</name>
@@ -339,6 +343,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

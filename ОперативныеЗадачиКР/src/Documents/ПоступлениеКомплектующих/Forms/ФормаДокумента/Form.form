@@ -30,7 +30,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
+      <editMode>Auto</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -41,6 +41,7 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -56,7 +57,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ДатаРасширеннаяПодсказка</name>
-        <id>17</id>
+        <id>18</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -70,7 +71,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
+      <editMode>Auto</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -81,6 +82,7 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -140,7 +142,7 @@
       </dataPath>
       <extendedTooltip>
         <name>КомплектующиеНомерСтрокиРасширеннаяПодсказка</name>
-        <id>28</id>
+        <id>30</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -154,7 +156,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
-      <editMode>EnterOnInput</editMode>
+      <editMode>Auto</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -176,7 +178,7 @@
       </dataPath>
       <extendedTooltip>
         <name>КомплектующиеКомплектующаяРасширеннаяПодсказка</name>
-        <id>29</id>
+        <id>32</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -190,7 +192,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
+      <editMode>Auto</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -201,6 +203,7 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -216,7 +219,7 @@
       </dataPath>
       <extendedTooltip>
         <name>КомплектующиеКоличествоРасширеннаяПодсказка</name>
-        <id>30</id>
+        <id>34</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -230,7 +233,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
+      <editMode>Auto</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -241,6 +244,7 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <autoCommandBar>
@@ -251,10 +255,10 @@
     </autoCommandBar>
     <searchStringAddition>
       <name>КомплектующиеСтрокаПоиска</name>
-      <id>19</id>
+      <id>21</id>
       <extendedTooltip>
         <name>КомплектующиеСтрокаПоискаРасширеннаяПодсказка</name>
-        <id>21</id>
+        <id>23</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -264,7 +268,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>КомплектующиеСтрокаПоискаКонтекстноеМеню</name>
-        <id>20</id>
+        <id>22</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <source>Комплектующие</source>
@@ -274,10 +278,10 @@
     </searchStringAddition>
     <viewStatusAddition>
       <name>КомплектующиеСостояниеПросмотра</name>
-      <id>22</id>
+      <id>24</id>
       <extendedTooltip>
         <name>КомплектующиеСостояниеПросмотраРасширеннаяПодсказка</name>
-        <id>24</id>
+        <id>26</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -287,7 +291,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>КомплектующиеСостояниеПросмотраКонтекстноеМеню</name>
-        <id>23</id>
+        <id>25</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
@@ -298,10 +302,10 @@
     </viewStatusAddition>
     <searchControlAddition>
       <name>КомплектующиеУправлениеПоиском</name>
-      <id>25</id>
+      <id>27</id>
       <extendedTooltip>
         <name>КомплектующиеУправлениеПоискомРасширеннаяПодсказка</name>
-        <id>27</id>
+        <id>29</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -311,7 +315,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>КомплектующиеУправлениеПоискомКонтекстноеМеню</name>
-        <id>26</id>
+        <id>28</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
@@ -322,7 +326,7 @@
     </searchControlAddition>
     <extendedTooltip>
       <name>КомплектующиеРасширеннаяПодсказка</name>
-      <id>18</id>
+      <id>20</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -348,6 +352,7 @@
     <verticalScrollBar>AutoUse</verticalScrollBar>
     <horizontalLines>true</horizontalLines>
     <verticalLines>true</verticalLines>
+    <useAlternationRowColorBWA>false</useAlternationRowColorBWA>
     <autoInsertNewRow>true</autoInsertNewRow>
     <searchOnInput>Auto</searchOnInput>
     <initialListView>Auto</initialListView>
@@ -358,6 +363,7 @@
     <searchStringLocation>None</searchStringLocation>
     <viewStatusLocation>None</viewStatusLocation>
     <searchControlLocation>None</searchControlLocation>
+    <autoMaxCardHeight>true</autoMaxCardHeight>
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <autoCommandBar>
@@ -366,6 +372,7 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <windowOpeningMode>DontBlock</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -374,7 +381,7 @@
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
   <verticalScroll>UseIfNecessary</verticalScroll>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>

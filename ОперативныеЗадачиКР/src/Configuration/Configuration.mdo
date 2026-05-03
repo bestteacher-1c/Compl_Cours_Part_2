@@ -25,11 +25,13 @@
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
   <mainSectionPicture/>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.27</compatibilityMode>
+  <interfaceCompatibilityMode>Version8_5</interfaceCompatibilityMode>
+  <version85InterfaceMigrationMode>Use</version85InterfaceMigrationMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
   <languages uuid="07a2eadd-4fb8-4404-a24d-7784d88b6e68">
     <name>Русский</name>
     <synonym>
@@ -40,6 +42,7 @@
   </languages>
   <subsystems>Subsystem.Сборка</subsystems>
   <commonPictures>CommonPicture.Сборка</commonPictures>
+  <interfaces>Interface.Основной</interfaces>
   <filterCriteria>FilterCriterion.ПодчиненныеДокументы</filterCriteria>
   <catalogs>Catalog.Компьютеры</catalogs>
   <catalogs>Catalog.СвойстваКомпьютеров</catalogs>

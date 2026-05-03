@@ -63,7 +63,7 @@
       </dataPath>
       <extendedTooltip>
         <name>НомерРасширеннаяПодсказка</name>
-        <id>27</id>
+        <id>28</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -99,7 +99,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ОтветственныйРасширеннаяПодсказка</name>
-        <id>28</id>
+        <id>30</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -135,7 +135,7 @@
       </dataPath>
       <extendedTooltip>
         <name>КомпьютерРасширеннаяПодсказка</name>
-        <id>29</id>
+        <id>32</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -175,7 +175,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ДокументОснованиеРасширеннаяПодсказка</name>
-        <id>30</id>
+        <id>34</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -304,7 +304,6 @@
     <verticalScrollBar>AutoUse</verticalScrollBar>
     <horizontalLines>true</horizontalLines>
     <verticalLines>true</verticalLines>
-    <useAlternationRowColor>true</useAlternationRowColor>
     <searchOnInput>Auto</searchOnInput>
     <initialListView>Auto</initialListView>
     <initialTreeView>ExpandTopLevel</initialTreeView>
@@ -317,6 +316,7 @@
     <searchStringLocation>None</searchStringLocation>
     <viewStatusLocation>None</viewStatusLocation>
     <searchControlLocation>None</searchControlLocation>
+    <autoMaxCardHeight>true</autoMaxCardHeight>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
       <period>
@@ -350,6 +350,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Item.Список.StandardCommand.Choose</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -358,7 +359,7 @@
     </items>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
-  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <windowOpeningMode>LockOwner</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -366,7 +367,7 @@
   <autoFillCheck>true</autoFillCheck>
   <enabled>true</enabled>
   <verticalScroll>UseIfNecessary</verticalScroll>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Список</name>
